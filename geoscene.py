@@ -97,7 +97,7 @@ class GeoScene():
 		return rna_ui
 
 	def view3dToProj(self, dx, dy):
-		'''Convert view3d coords to crs coords'''
+		'''Convert view3d coordinates to CRS coords'''
 		if self.hasOriginPrj:
 			x = self.crsx + (dx * self.scale)
 			y = self.crsy + (dy * self.scale)
